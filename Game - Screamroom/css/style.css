@@ -1,0 +1,86 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url("/img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index:-1;
+}
+header {
+  display: flex;
+  width: 100%;
+  height: 8vh;
+  top: 0;
+  margin: auto;
+  align-items: center;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  flex:12;
+  justify-content: space-around;
+}
+.logoContainer,
+.navLinks, .register {
+display:flex;
+}
+.logoContainer {
+  display: flex;
+  flex: 4;
+}
+.navLinks {
+  list-style: none;
+  flex:6;
+}
+.navLink {
+  font-size: 20px;
+  margin-left: 6vh;
+  color: antiquewhite;
+  text-decoration: none;
+}
+.register{
+  background-color:crimson;
+  border: none;
+  color: white;
+  padding: 6px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 10vh;
+}
+.gameDisplay{
+  margin-top: 8vh;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+}
+.gameDisplay{
+ width: 80%;
+ margin-left: 10%;
+}
+#game{
+  width: 90%;
+  margin-left: 5%;  
+}
+main{
+  height: 100vh;
+  background-image: url("/img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index:1;
+}
+.indexPage{
+  height: 40vh;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.infoRules{
+  background-color: slategray;
+  height: 80vh;
+  margin-top:40vh;
+}
