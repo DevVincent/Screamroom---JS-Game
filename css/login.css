@@ -1,0 +1,182 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Yeon Sung', cursive;
+    background-image: url("/img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index:-1;
+  }
+  main{
+    background-image: url("/img/background.jpg");
+    height: 100vh;
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index:1;
+  }
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Yeon Sung', cursive;
+    background-image: url("/img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index:-1;
+  }
+  header {
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    width: 100%;
+    height: 8vh;
+    top: 0;
+    margin: auto;
+    align-items: center;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  nav{
+    display: flex;
+    flex-direction: row;
+    flex:12;
+    justify-content: space-around;
+  }
+  h1{
+    color:antiquewhite;  
+  }
+/*
+=================================
+  Navbar styling and positioning
+=================================
+*/
+.logoContainer,
+.navLinks, .register {
+  display: flex;
+}
+.logoContainer {
+  margin-top: 1vh;
+  height: 7vh;
+  width: 10vh;
+  margin-left: 2vh;
+}
+.navLinks {
+  margin-left: 35vh;
+  list-style: none;
+  justify-content: space-around;
+  cursor:pointer;
+}
+.navLink {
+  padding-left: 2vh;
+  padding-right: 2vh;
+  font-size: 25px;
+  color: antiquewhite;
+  text-decoration: none;
+}
+.register{
+  background-color:rgb(39, 108, 91);
+  border:1px rgb(0, 69, 51);
+  color: antiquewhite;
+  padding: 6px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+/*
+=================================
+  Login Page
+=================================
+*/
+.loginPage{
+    display: flex;
+    justify-content: center;
+    width: 100%;   
+}
+.loginHeading{
+  text-align: center;
+  padding:0 0 50px;
+  font-size: 60px;
+}
+.loginBox{
+  margin:auto;
+  vertical-align: center;
+  width: 20%;
+  height: 60%;
+  top:50%;
+  left:50%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.95);
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding-left:20px;
+  padding-right:20px;
+}
+.loginBox p {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 35px;
+  font-weight: bold;
+  color: antiquewhite;
+}
+.loginBox input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.loginBox input[type="text"], input[type="password"]{
+  border:none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline:none;
+  height:40px;
+  color:#fff;
+  font-size: 15px;
+}
+.loginBox input[type="submit"]{
+  border:none;
+  outline: none;
+  height: 40px;
+  background-color:rgb(16, 122, 105);
+  color:antiquewhite;
+  font-size:18px;
+}
+.loginBox input[type="submit"]:hover{
+  cursor: pointer;
+  background: rgb(8, 216, 161);
+}
+.loginBox a{
+  text-decoration: none;
+  font-size: 22px;
+  line-height: 20px;
+  color:antiquewhite;
+}
+.loginBox a:hover{
+  color:rgb(16, 122, 105);
+}
+/*
+=================================
+  Footer styling and positioning
+=================================
+*/
+footer{
+  display: flex;
+  height: 10vh;
+  width: 100%;
+  background: black;
+}
+.foot{
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto;
+}
+footer p{
+  color: rgb(172, 166, 158);
+  font-size: 15px;
+  text-align: center;
+}

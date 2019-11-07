@@ -1,0 +1,92 @@
+/*
+=================================
+  Register
+=================================
+*/
+.registerPage{
+    display: flex;
+    justify-content: center;
+    width: 100%;   
+}
+.registerHeading{
+  text-align: center;
+  padding:0 0 40px;
+  font-size: 60px;
+}
+.registerBox{
+  margin:auto;
+  vertical-align: center;
+  width: 20%;
+  height: 60%;
+  top:50%;
+  left:50%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.95);
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding-left:20px;
+  padding-right:20px;
+}
+.registerBox p {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 35px;
+  font-weight: bold;
+  color: antiquewhite;
+}
+.registerBox input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.registerBox input[type="text"], input[type="password"]{
+  border:none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline:none;
+  height:40px;
+  color:#fff;
+  font-size: 15px;
+}
+.registerBox input[type="submit"]{
+  border:none;
+  outline: none;
+  height: 40px;
+  background-color:rgb(16, 122, 105);
+  color:antiquewhite;
+  font-size:18px;
+}
+.registerBox input[type="submit"]:hover{
+  cursor: pointer;
+  background: rgb(8, 216, 161);
+}
+.registerBox a{
+  text-decoration: none;
+  font-size: 22px;
+  line-height: 20px;
+  color:antiquewhite;
+}
+.registerBox a:hover{
+    color:rgb(16, 122, 105);
+}
+  /*
+=================================
+  Footer styling and positioning
+=================================
+*/
+footer{
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    background: black;
+}
+.foot{
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+}
+footer p{
+    color: rgb(172, 166, 158);
+    font-size: 15px;
+    text-align: center;
+}
